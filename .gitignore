@@ -1,0 +1,41 @@
+# Angular
+/Frontend/dist
+/Frontend/tmp
+/Frontend/out-tsc
+/Frontend/.sass-cache
+/Frontend/connect.lock
+/Frontend/coverage
+/Frontend/libpeerconnection.log
+/Frontend/npm-debug.log
+/Frontend/yarn-error.log
+/Frontend/testem.log
+/Frontend/typings
+/Frontend/node_modules
+/Frontend/.angular/cache
+
+# .NET Core
+/Backend/obj/
+/Backend/bin/
+/Backend/.vs/
+/Backend/Properties/launchSettings.json
+*.user
+*.suo
+*.userprefs
+*.sln.docstates
+
+# IDE - VSCode, Visual Studio, JetBrains Rider
+.vs
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea
+*.swo
+*.swp
+*.swn
+*.swm
+
+# OS specific files
+.DS_Store
+Thumbs.db 

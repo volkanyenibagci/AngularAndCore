@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Global styles */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.container {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1976d2;
+  margin-bottom: 1rem;
+}
+
+p {
+  color: #424242;
+  line-height: 1.6;
+}
+
+/* Material components custom styles */
+.mat-toolbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.mat-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.mat-button {
+  border-radius: 4px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .container {
+    margin: 10px;
+    padding: 15px;
+  }
+}

@@ -1,0 +1,105 @@
+<div class="home-container">
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <h1 class="hero-title">Yönetim Paneline Hoş Geldiniz</h1>
+      <p class="hero-subtitle">Angular ve .NET Core ile geliştirilmiş modern, güvenli ve hızlı yönetim çözümü</p>
+      <div class="hero-actions">
+        <button mat-raised-button color="primary">Keşfet</button>
+        <button mat-stroked-button color="accent">Daha Fazla Bilgi</button>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="assets/images/dashboard.svg" alt="Dashboard İllüstrasyonu">
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats-section">
+    <div class="stat-card">
+      <mat-icon color="primary">shopping_cart</mat-icon>
+      <div class="stat-value">2540</div>
+      <div class="stat-label">Toplam Ürün</div>
+    </div>
+    <div class="stat-card">
+      <mat-icon color="accent">people</mat-icon>
+      <div class="stat-value">1250</div>
+      <div class="stat-label">Aktif Kullanıcı</div>
+    </div>
+    <div class="stat-card">
+      <mat-icon color="warn">shopping_bag</mat-icon>
+      <div class="stat-value">186</div>
+      <div class="stat-label">Bugünkü Sipariş</div>
+    </div>
+    <div class="stat-card">
+      <mat-icon style="color: #00C853">trending_up</mat-icon>
+      <div class="stat-value">%24</div>
+      <div class="stat-label">Aylık Büyüme</div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features-section">
+    <h2 class="section-title">Özellikler</h2>
+    
+    <div class="features-grid">
+      <mat-card class="feature-card">
+        <mat-card-header>
+          <mat-icon mat-card-avatar color="primary">inventory</mat-icon>
+          <mat-card-title>Ürün Yönetimi</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <p>Ürünlerinizi kolayca ekleyin, düzenleyin ve takip edin. Kategorilere ayırın ve stok durumunu güncel tutun.</p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button color="primary" routerLink="/products">DETAYLAR</button>
+        </mat-card-actions>
+      </mat-card>
+
+      <mat-card class="feature-card">
+        <mat-card-header>
+          <mat-icon mat-card-avatar color="accent">people</mat-icon>
+          <mat-card-title>Kullanıcı Yönetimi</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <p>Kullanıcı hesaplarını yönetin, yetkilendirme ayarlarını yapın ve kullanıcı etkinliklerini izleyin.</p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button color="accent" routerLink="/users">DETAYLAR</button>
+        </mat-card-actions>
+      </mat-card>
+
+      <mat-card class="feature-card">
+        <mat-card-header>
+          <mat-icon mat-card-avatar color="warn">settings</mat-icon>
+          <mat-card-title>Sistem Ayarları</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <p>Uygulama ayarlarını özelleştirin, bildirim tercihlerini yapılandırın ve sistem parametrelerini düzenleyin.</p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button color="warn" routerLink="/settings">DETAYLAR</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </section>
+
+  <!-- Quick Actions -->
+  <section class="quick-actions">
+    <h2 class="section-title">Hızlı İşlemler</h2>
+    <div class="actions-container">
+      <button mat-raised-button color="primary">
+        <mat-icon>add</mat-icon> Yeni Ürün Ekle
+      </button>
+      <button mat-raised-button color="accent">
+        <mat-icon>person_add</mat-icon> Kullanıcı Oluştur
+      </button>
+      <button mat-raised-button color="warn">
+        <mat-icon>summarize</mat-icon> Rapor Oluştur
+      </button>
+      <button mat-raised-button color="basic">
+        <mat-icon>backup</mat-icon> Yedekleme
+      </button>
+    </div>
+  </section>
+</div>

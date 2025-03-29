@@ -1,0 +1,24 @@
+.layout-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidenav-container {
+  flex: 1;
+  margin-top: 64px; // Header yüksekliği
+}
+
+.sidenav {
+  width: 250px;
+}
+
+.sidenav-content {
+  padding: 20px;
+}
+
+.content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}

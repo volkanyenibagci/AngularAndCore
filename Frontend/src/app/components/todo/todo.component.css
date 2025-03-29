@@ -1,0 +1,76 @@
+.todo-container {
+  padding: 20px;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  margin: 0;
+  color: #333;
+}
+
+.content {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-column-title {
+  min-width: 200px;
+}
+
+.mat-column-description {
+  min-width: 300px;
+}
+
+.mat-column-dueDate {
+  min-width: 120px;
+}
+
+.mat-column-priority {
+  min-width: 100px;
+}
+
+.mat-column-completed {
+  min-width: 100px;
+}
+
+.mat-column-actions {
+  min-width: 120px;
+  text-align: center;
+}
+
+.priority-badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.mat-row:hover {
+  background-color: #f5f5f5;
+}
+
+.mat-header-cell {
+  font-weight: bold;
+  color: #333;
+}
+
+.mat-cell {
+  padding: 16px 8px;
+}
+
+button[mat-icon-button] {
+  margin: 0 4px;
+} 

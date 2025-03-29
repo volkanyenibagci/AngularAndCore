@@ -1,0 +1,66 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Arka plan -->
+  <rect width="600" height="400" rx="20" fill="#F5F7FA"/>
+  
+  <!-- Dashboard Ana Çerçeve -->
+  <rect x="40" y="40" width="520" height="320" rx="10" fill="white" stroke="#E1E4E8" stroke-width="2"/>
+  
+  <!-- Üst Menü Çubuğu -->
+  <rect x="40" y="40" width="520" height="60" rx="10" fill="#1976D2"/>
+  <circle cx="80" cy="70" r="15" fill="#FFFFFF"/>
+  <rect x="110" y="60" width="80" height="20" rx="5" fill="#FFFFFF" opacity="0.6"/>
+  <rect x="210" y="60" width="80" height="20" rx="5" fill="#FFFFFF" opacity="0.4"/>
+  <rect x="310" y="60" width="80" height="20" rx="5" fill="#FFFFFF" opacity="0.4"/>
+  <circle cx="520" cy="70" r="15" fill="#FFFFFF" opacity="0.6"/>
+  
+  <!-- Sol Kenar Çubuğu -->
+  <rect x="40" y="100" width="100" height="260" fill="#F0F2F5"/>
+  <rect x="60" y="120" width="60" height="10" rx="5" fill="#1976D2" opacity="0.7"/>
+  <rect x="60" y="150" width="60" height="10" rx="5" fill="#1976D2" opacity="0.5"/>
+  <rect x="60" y="180" width="60" height="10" rx="5" fill="#1976D2" opacity="0.5"/>
+  <rect x="60" y="210" width="60" height="10" rx="5" fill="#1976D2" opacity="0.5"/>
+  <rect x="60" y="240" width="60" height="10" rx="5" fill="#1976D2" opacity="0.5"/>
+  <rect x="60" y="270" width="60" height="10" rx="5" fill="#1976D2" opacity="0.5"/>
+  <rect x="60" y="300" width="60" height="10" rx="5" fill="#1976D2" opacity="0.5"/>
+  
+  <!-- İçerik Bölümü - İstatistik Kartları -->
+  <rect x="160" y="120" width="120" height="80" rx="8" fill="#1976D2" opacity="0.8"/>
+  <rect x="180" y="140" width="80" height="15" rx="3" fill="#FFFFFF" opacity="0.9"/>
+  <rect x="180" y="165" width="50" height="10" rx="3" fill="#FFFFFF" opacity="0.6"/>
+  
+  <rect x="300" y="120" width="120" height="80" rx="8" fill="#4CAF50" opacity="0.8"/>
+  <rect x="320" y="140" width="80" height="15" rx="3" fill="#FFFFFF" opacity="0.9"/>
+  <rect x="320" y="165" width="50" height="10" rx="3" fill="#FFFFFF" opacity="0.6"/>
+  
+  <rect x="440" y="120" width="100" height="80" rx="8" fill="#FF5722" opacity="0.8"/>
+  <rect x="460" y="140" width="60" height="15" rx="3" fill="#FFFFFF" opacity="0.9"/>
+  <rect x="460" y="165" width="40" height="10" rx="3" fill="#FFFFFF" opacity="0.6"/>
+  
+  <!-- Grafik Bölümü -->
+  <rect x="160" y="220" width="380" height="140" rx="8" fill="#F5F7FA" stroke="#E1E4E8" stroke-width="2"/>
+  <line x1="180" y1="320" x2="520" y2="320" stroke="#E1E4E8" stroke-width="2"/>
+  <line x1="180" y1="320" x2="180" y2="240" stroke="#E1E4E8" stroke-width="2"/>
+  
+  <!-- Grafik Çizgileri -->
+  <path d="M180 290 L220 270 L260 300 L300 250 L340 260 L380 240 L420 270 L460 230 L500 250" stroke="#1976D2" stroke-width="3" fill="none"/>
+  <path d="M180 310 L220 290 L260 320 L300 280 L340 290 L380 300 L420 280 L460 290 L500 310" stroke="#FF5722" stroke-opacity="0.6" stroke-width="3" fill="none"/>
+  
+  <!-- Grafik Noktaları -->
+  <circle cx="220" cy="270" r="4" fill="#1976D2"/>
+  <circle cx="260" cy="300" r="4" fill="#1976D2"/>
+  <circle cx="300" cy="250" r="4" fill="#1976D2"/>
+  <circle cx="340" cy="260" r="4" fill="#1976D2"/>
+  <circle cx="380" cy="240" r="4" fill="#1976D2"/>
+  <circle cx="420" cy="270" r="4" fill="#1976D2"/>
+  <circle cx="460" cy="230" r="4" fill="#1976D2"/>
+  <circle cx="500" cy="250" r="4" fill="#1976D2"/>
+  
+  <circle cx="220" cy="290" r="4" fill="#FF5722" opacity="0.6"/>
+  <circle cx="260" cy="320" r="4" fill="#FF5722" opacity="0.6"/>
+  <circle cx="300" cy="280" r="4" fill="#FF5722" opacity="0.6"/>
+  <circle cx="340" cy="290" r="4" fill="#FF5722" opacity="0.6"/>
+  <circle cx="380" cy="300" r="4" fill="#FF5722" opacity="0.6"/>
+  <circle cx="420" cy="280" r="4" fill="#FF5722" opacity="0.6"/>
+  <circle cx="460" cy="290" r="4" fill="#FF5722" opacity="0.6"/>
+  <circle cx="500" cy="310" r="4" fill="#FF5722" opacity="0.6"/>
+</svg> 

@@ -1,0 +1,40 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Arka plan -->
+  <rect width="600" height="400" rx="20" fill="#F0F4F8"/>
+  
+  <!-- Ekip Üyeleri -->
+  
+  <!-- Kişi 1 -->
+  <circle cx="150" cy="180" r="60" fill="#1976D2"/>
+  <circle cx="150" cy="150" r="30" fill="#FFFFFF"/>
+  <path d="M100 240 Q150 280 200 240" stroke="#FFFFFF" stroke-width="5" fill="none"/>
+  
+  <!-- Kişi 2 -->
+  <circle cx="300" cy="150" r="60" fill="#4CAF50"/>
+  <circle cx="300" cy="120" r="30" fill="#FFFFFF"/>
+  <path d="M250 210 Q300 250 350 210" stroke="#FFFFFF" stroke-width="5" fill="none"/>
+  
+  <!-- Kişi 3 -->
+  <circle cx="450" cy="180" r="60" fill="#FF5722"/>
+  <circle cx="450" cy="150" r="30" fill="#FFFFFF"/>
+  <path d="M400 240 Q450 280 500 240" stroke="#FFFFFF" stroke-width="5" fill="none"/>
+  
+  <!-- Bağlantı Çizgileri -->
+  <line x1="210" y1="180" x2="240" y2="150" stroke="#1976D2" stroke-width="4" stroke-dasharray="5 5"/>
+  <line x1="360" y1="150" x2="390" y2="180" stroke="#4CAF50" stroke-width="4" stroke-dasharray="5 5"/>
+  
+  <!-- Daireler ve Semboller -->
+  <circle cx="300" cy="300" r="40" fill="#FFC107"/>
+  <rect x="280" y="280" width="40" height="40" fill="#FFFFFF"/>
+  
+  <!-- Konuşma Balonu 1 -->
+  <path d="M120 100 Q110 80 130 70 L170 70 Q190 70 190 90 L190 120 Q190 140 170 140 L150 140 L140 160 L130 140 L120 140 Q100 140 100 120 L100 120 Z" fill="#FFFFFF" stroke="#1976D2" stroke-width="2"/>
+  <text x="145" y="105" text-anchor="middle" font-family="Arial" font-size="14">Takım</text>
+  
+  <!-- Konuşma Balonu 2 -->
+  <path d="M430 100 Q420 80 440 70 L480 70 Q500 70 500 90 L500 120 Q500 140 480 140 L460 140 L450 160 L440 140 L430 140 Q410 140 410 120 L410 120 Z" fill="#FFFFFF" stroke="#FF5722" stroke-width="2"/>
+  <text x="455" y="105" text-anchor="middle" font-family="Arial" font-size="14">Başarı</text>
+  
+  <!-- Başlık -->
+  <text x="300" y="50" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="24" fill="#333333">Profesyonel Ekibimiz</text>
+</svg> 
