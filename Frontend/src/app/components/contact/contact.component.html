@@ -1,0 +1,92 @@
+<div class="contact-container">
+  <div class="header">
+    <h2>İletişim</h2>
+    <p>Bizimle iletişime geçmek için aşağıdaki formu doldurun.</p>
+  </div>
+
+  <div class="form-container">
+    <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+      <div class="form-row">
+        <mat-form-field appearance="outline">
+          <mat-label>Ad Soyad</mat-label>
+          <input matInput formControlName="name" placeholder="Ad Soyad" required>
+          <mat-icon matSuffix>person</mat-icon>
+          <mat-error *ngIf="contactForm.get('name')?.hasError('required')">
+            Ad Soyad alanı zorunludur
+          </mat-error>
+          <mat-error *ngIf="contactForm.get('name')?.hasError('minlength')">
+            Ad Soyad en az 3 karakter olmalıdır
+          </mat-error>
+        </mat-form-field>
+      </div>
+
+      <div class="form-row">
+        <mat-form-field appearance="outline">
+          <mat-label>E-posta</mat-label>
+          <input matInput type="email" formControlName="email" placeholder="ornek@email.com" required>
+          <mat-icon matSuffix>email</mat-icon>
+          <mat-error *ngIf="contactForm.get('email')?.hasError('required')">
+            E-posta alanı zorunludur
+          </mat-error>
+          <mat-error *ngIf="contactForm.get('email')?.hasError('email')">
+            Geçerli bir e-posta adresi girin
+          </mat-error>
+        </mat-form-field>
+      </div>
+
+      <div class="form-row">
+        <mat-form-field appearance="outline">
+          <mat-label>Konu</mat-label>
+          <mat-select formControlName="subject">
+            <mat-option *ngFor="let option of subjectOptions" [value]="option">
+              {{ option }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+
+      <div class="form-row">
+        <mat-form-field appearance="outline">
+          <mat-label>Mesajınız</mat-label>
+          <textarea matInput formControlName="message" placeholder="Mesajınızı buraya yazın" rows="6" required></textarea>
+          <mat-error *ngIf="contactForm.get('message')?.hasError('required')">
+            Mesaj alanı zorunludur
+          </mat-error>
+          <mat-error *ngIf="contactForm.get('message')?.hasError('minlength')">
+            Mesaj en az 10 karakter olmalıdır
+          </mat-error>
+        </mat-form-field>
+      </div>
+
+      <div class="form-row submit-row">
+        <button mat-raised-button color="primary" type="submit" [disabled]="contactForm.invalid">
+          <mat-icon>send</mat-icon>
+          Gönder
+        </button>
+        <button mat-button type="button" (click)="contactForm.reset({subject: 'Genel Sorular'})">
+          Temizle
+        </button>
+      </div>
+    </form>
+  </div>
+
+  <div class="contact-info">
+    <h3>İletişim Bilgileri</h3>
+    <div class="info-item">
+      <mat-icon>location_on</mat-icon>
+      <p>Atatürk Bulvarı No:123, Bakırköy, İstanbul</p>
+    </div>
+    <div class="info-item">
+      <mat-icon>phone</mat-icon>
+      <p>+90 212 123 45 67</p>
+    </div>
+    <div class="info-item">
+      <mat-icon>email</mat-icon>
+      <p>info&#64;ornekfirma.com</p>
+    </div>
+    <div class="info-item">
+      <mat-icon>access_time</mat-icon>
+      <p>Pazartesi - Cuma: 09:00 - 18:00</p>
+    </div>
+  </div>
+</div>

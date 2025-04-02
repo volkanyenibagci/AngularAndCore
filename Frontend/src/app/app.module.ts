@@ -13,11 +13,13 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { HttpClientModule } from '@angular/common/http';
+import { MAT_DATE_LOCALE } from '@angular/material/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainLayoutComponent } from './components/layout/main-layout/main-layout.component';
-import { HomeComponent } from './components/home/home.component';
+import { HomeComponent } from './components/home/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
@@ -42,9 +44,12 @@ import { AboutComponent } from './components/about/about.component';
     MatSelectModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    { provide: MAT_DATE_LOCALE, useValue: 'tr-TR' }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { } 

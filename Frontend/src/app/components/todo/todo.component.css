@@ -73,4 +73,20 @@ table {
 
 button[mat-icon-button] {
   margin: 0 4px;
+}
+
+.no-data {
+  color: #888;
+  font-style: italic;
+}
+
+.loading {
+  padding: 20px;
+  text-align: center;
+}
+
+.no-todos {
+  padding: 20px;
+  text-align: center;
+  color: #666;
 } 

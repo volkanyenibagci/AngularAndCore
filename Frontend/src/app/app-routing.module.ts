@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { MainLayoutComponent } from './components/layout/main-layout/main-layout.component';
-import { HomeComponent } from './components/home/home.component';
+import { HomeComponent } from './components/home/home/home.component';
 import { TodoComponent } from './components/todo/todo.component';
 import { AboutComponent } from './components/about/about.component';
 
